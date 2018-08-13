@@ -1,0 +1,43 @@
+{
+  "name": "cyberrequire",
+  "version": "1.0.0",
+  "author": "Yankı Küçük",
+  "description": "Optional or alternative requires without error!",
+  "main": "./src/app.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js app.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "require",
+    "optional require",
+    "alternative require",
+    "cyberrequire"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win64"
+  ],
+  "engines": {
+    "node": ">=10.8.0",
+    "npm": ">=6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.31",
+    "eslint": "^5.3.0",
+    "nodemon": "^1.18.3"
+  },
+  "contributors": [
+    "Yankı Küçük <kendinikertenkelebek@me.com>"
+  ],
+  "homepage": "https://github.com/kendinikertenkelebek/cyberrequire",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kendinikertenkelebek/cyberrequire.git",
+    "bugs": {
+      "url": "https://github.com/kendinikertenkelebek/cyberrequire/issues"
+    }
+  }
+}
